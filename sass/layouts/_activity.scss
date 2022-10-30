@@ -4,16 +4,16 @@
   padding-top: 0;
 }
 
-.list-activity {
+.activity__list {
   display: flex;
   gap: 30px;
 }
 
-.list-activity-item {
+.activity__item {
   width: calc((100% - 60px) / 3);
 }
 
-.activity-title,
+.activity__title,
 .team-title {
   margin-bottom: 50px;
   @extend %title;
@@ -23,11 +23,11 @@
   // letter-spacing: 0.03em;
 }
 
-.activity-thumb {
+.activity__thumb {
   position: relative;
 }
 
-.activity-text {
+.activity__text {
   position: absolute;
   bottom: 0;
   width: 100%;

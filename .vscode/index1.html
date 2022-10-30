@@ -19,34 +19,37 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <header class="header">
-      <div class="container header__container">
-        <nav class="navigation">
-          <!-- Logo -->
-          <a class="logo navigation__logo link" href="./index.html"
-            >Web<span class="logo--header">Studio</span>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <!-- Логотип -->
+          <a class="logo logo-nav link" href="./index.html"
+            ><span class="logo-header">Web</span>Studio
           </a>
 
-          <ul class="menu list">
+          <ul class="site-nav list">
             <li>
-              <a class="menu__item link current" href="./index.html">Студія</a>
+              <a class="site-nav-item link current" href="./index.html"
+                >Студія</a
+              >
             </li>
 
             <li>
-              <a class="menu__item link" href="./portfolio.html">Портфоліо</a>
+              <a class="site-nav-item link" href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
 
-            <li><a class="menu__item link" href="">Контакти</a></li>
+            <li><a class="site-nav-item link" href="">Контакти</a></li>
           </ul>
         </nav>
 
-        <ul class="connect list">
+        <ul class="contacts list">
           <li>
-            <a class="connect__link link" href="mailto:info@devstudio.com"
+            <a class="contacts-link link" href="mailto:info@devstudio.com"
               ><svg class="letter-icon" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-letter"></use></svg
               >info@devstudio.com</a
@@ -54,7 +57,7 @@
           </li>
 
           <li>
-            <a class="connect__link link" href="tel:+380961111111"
+            <a class="contacts-link link" href="tel:+380961111111"
               ><svg class="phone-icon" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-phone"></use></svg
               >+38 096 111 11 11</a
@@ -65,7 +68,7 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button-primary" data-modal-open>
           Замовити послугу
         </button>
@@ -74,33 +77,33 @@
       <!-- <h2>Наші риси</h2> -->
       <section class="section features">
         <div class="container">
-          <ul class="features__list list">
-            <li class="features__item icon-antenna">
-              <h3 class="features__title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="features__text">
+          <ul class="features-list list">
+            <li class="feature-list-item icon-antenna">
+              <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
 
-            <li class="features__item icon-clock">
-              <h3 class="features__title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="features__text">
+            <li class="feature-list-item icon-clock">
+              <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
 
-            <li class="features__item icon-diagram">
-              <h3 class="features__title">ПЛАНУВАННЯ</h3>
-              <p class="features__text">
+            <li class="feature-list-item icon-diagram">
+              <h3 class="features-title">ПЛАНУВАННЯ</h3>
+              <p class="features-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
 
-            <li class="features__item icon-astronaut">
-              <h3 class="features__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="features__text">
+            <li class="feature-list-item icon-astronaut">
+              <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features-text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -109,40 +112,40 @@
         </div>
       </section>
 
-      <section class="section activity">
+      <section class="activity">
         <div class="container">
-          <h2 class="activity__title">Чим ми займаємося</h2>
-          <ul class="list activity__list">
-            <li class="activity__item">
-              <div class="activity__thumb">
+          <h2 class="activity-title">Чим ми займаємося</h2>
+          <ul class="list list-activity">
+            <li class="list-activity-item">
+              <div class="activity-thumb">
                 <img
                   src="./images/img.jpg"
                   alt="робота за компьютерм"
                   width="370"
                 />
-                <p class="activity__text">Десктопні додатки</p>
+                <p class="activity-text">Десктопні додатки</p>
               </div>
             </li>
 
-            <li class="activity__item">
-              <div class="activity__thumb">
+            <li class="list-activity-item">
+              <div class="activity-thumb">
                 <img
                   src="./images/img1.jpg"
                   alt="робота з телефоном та компьютером"
                   width="370"
                 />
-                <p class="activity__text">Мобільні додатки</p>
+                <p class="activity-text">Мобільні додатки</p>
               </div>
             </li>
 
-            <li class="activity__item">
-              <div class="activity__thumb">
+            <li class="list-activity-item">
+              <div class="activity-thumb">
                 <img
                   src="./images/img2.jpg"
                   alt="робота на планшеті"
                   width="370"
                 />
-                <p class="activity__text">Дизайнерські рішення</p>
+                <p class="activity-text">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
@@ -397,7 +400,7 @@
         <div class="footer-address">
           <!-- Логотип -->
           <a class="footer-address-logo logo link" href="./index.html"
-            >Web<span class="logo--footer">Studio</span></a
+            ><span class="logo-footer">Web</span>Studio</a
           >
           <address>
             <ul class="list address">

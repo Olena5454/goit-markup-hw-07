@@ -1,11 +1,11 @@
 /*---------------Features---------------- */
 
-.features-list {
+.features__list {
   display: flex;
   gap: 30px;
 }
 
-.feature-list-item::before {
+.features__item::before {
   content: "";
   height: 120px;
   margin-bottom: 30px;
@@ -33,7 +33,7 @@
   background-image: url(../images/astronaut.svg);
 }
 
-.features-title {
+.features__title {
   margin-bottom: 10px;
   @include font(14px, 1.14, 0.03em);
   // font-size: 14px;
@@ -42,11 +42,11 @@
   text-transform: uppercase;
 }
 
-.features-list .features-title {
+.features__list .features__title {
   color: var(--title-text-color);
 }
 
-.features-text {
+.features__text {
   @include font(14px, 1.71, 0.03em);
   // font-size: 14px;
   // line-height: 1.71;
