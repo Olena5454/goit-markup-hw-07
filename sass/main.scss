@@ -1,7 +1,23 @@
-header {
-    background-color: rgb(179, 255, 0);
-}
+@import "./base/reset";
+@import "./utils/vars";
+@import "./utils/placeholders";
+@import "./utils/mixin";
+@import "./base/common";
+@import "./utils/hidden";
 
-.hero-title {
-    color: aquamarine;
-}
+@import "./componentc/section";
+@import "./componentc/container";
+@import "./componentc/btn";
+@import "./componentc/modal";
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/activity";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/filter";
+@import "./layouts/projects";
+
+
