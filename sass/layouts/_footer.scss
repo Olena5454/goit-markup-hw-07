@@ -11,14 +11,14 @@ footer {
   flex-shrink: 0;
 }
 
-.logo--footer {
+.logo__footer--dark {
    color: var(--color-hero-text);
    &:hover {
   color: var(--accent-color);
 }
 }
 
-a.logo.link:focus .logo--footer:not(:focus) {
+a.logo.link:focus .logo__footer--dark:not(:focus) {
   color: var(--accent-color);
 }
 

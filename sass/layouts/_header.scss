@@ -33,14 +33,14 @@
 }
 
 /* ----------------Logo---------------- */
-.logo--header {
-  color: var(--title-text-color);
+.logo__header--dark {
+  color: var(--color-logo);
   &:hover {
     color: var(--accent-color);
   }
 }
 
-a.logo.link:focus .logo--header:not(:focus) {
+a.logo.link:focus .logo__header--dark:not(:focus) {
   color: var(--accent-color);
 }
 
